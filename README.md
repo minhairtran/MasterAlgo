@@ -1,8 +1,18 @@
 # Pathfinding Algorithm Visualizer 
 
-This project gets the idea from the project https://github.com/clementmihailescu/Pathfinding-Visualizer-Tutorial
+Algorithm Visualizer eases the effort of studying algorithm. If you find it hard to visualise and understand algortihm, this application is for you.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Clone the project
+$ git clone "https://github.com/minhairtran/visualizer-app.git"
+
+## Installation
+- Download [NodeJs] (https://nodejs.org/en/download/)
+- It is better to install [Visual Studio Code](https://code.visualstudio.com/)
+- Install bootstrap: npm install bootstrap@4.1.1  
+- Install facebook login API: npm install react-facebook-login --save
+- Install react router: npm i react-router-dom --save
 
 ## Available Scripts
 
@@ -56,6 +66,3 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
 
-## Structure of code
-
-![](src/images/structure.png)# visualizer-app

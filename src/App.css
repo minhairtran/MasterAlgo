@@ -1,51 +1,10 @@
-:root {
-  --primaryColor: #af9a7d;
-  --mainWhite: #fff;
-  --offWhite: #f7f7f7;
-  --mainBlack: #222;
-  --mainGrey: #ececec;
-  --darkGrey: #cfcfcf;
-  --mainTransition: all 0.3s linear;
-  --mainSpacing: 3px;
-  --lightShadow: 2px 5px 3px 0px rgba(0, 0, 0, 0.5);
-  --darkShadow: 4px 10px 5px 0px rgba(0, 0, 0, 0.5);
-}
-/* globals */
-body {
-  padding-top: 66px;
-  color: var(--mainBlack);
-  background: var(--mainWhite);
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  line-height: 1.4;
-}
-
-.btn-primary {
-  display: inline-block;
-  text-decoration: none;
-  letter-spacing: var(--mainSpacing);
-  color: var(--mainBlack);
-  background: transparent;
-  padding: 0.4rem 0.9rem;
-  border: 3px solid var(--offWhite);
-  transition: var(--mainTransition);
-  text-transform: uppercase;
-  cursor: pointer;
-}
-.btn-primary:hover {
-  background: var(--primaryColor);
-  color: var(--offWhite);
-}
-h3 {
-  font-size: 1.5em;
-  line-height: 1;
-  margin-bottom: 1em;
-}
 
 /* Node */
 .node {
   width: 1.5%;
   height: 25px;
   outline: 1px solid rgb(175, 216, 248);
+  background-color: white;
   display: inline-block;
   margin: 0;
   padding: 0;
@@ -59,6 +18,12 @@ h3 {
 .node-start {
   background-color: green;
 }
+
+.node-ordinary {
+  background-color: white;
+}
+
+
 
 .node-visited {
   animation-name: visitedAnimation;
@@ -122,59 +87,5 @@ h3 {
   100% {
     transform: scale(1);
     background-color: rgb(255, 254, 106);
-  }
-}
-
-.grid {
-  margin: 100px 0 0;
-}
-
-/* Navbar */
-.navbar {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  padding: 0.75rem 2rem;
-  background: var(--offWhite);
-  z-index: 1;
-}
-.nav-header {
-  display: flex;
-  justify-content: space-between;
-}
-.nav-btn {
-  background: transparent;
-  border: none;
-  cursor: pointer;
-  outline: none;
-}
-.nav-icon {
-  font-size: 1.5rem;
-  color: var(--primaryColor);
-}
-.nav-buttons {
-  height: 0;
-  overflow: hidden;
-  transition: var(--mainTransition);
-  list-style-type: none;
-}
-
-.show-nav {
-  height: 100px;
-}
-@media screen and (min-width: 768px) {
-  .nav-btn {
-    display: none;
-  }
-  .nav-center {
-    max-width: 1170px;
-    margin: 0 auto;
-    display: flex;
-  }
-  .nav-buttons {
-    height: auto;
-    display: flex;
-    margin-left: 4rem;
   }
 }
