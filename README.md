@@ -8,7 +8,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 $ git clone "https://github.com/minhairtran/visualizer-app.git"
 
 ## Installation
-- Download [NodeJs] (https://nodejs.org/en/download/)
+- Download [NodeJs](https://nodejs.org/en/download/)
 - It is better to install [Visual Studio Code](https://code.visualstudio.com/)
 - Install bootstrap: npm install bootstrap@4.1.1  
 - Install facebook login API: npm install react-facebook-login --save
