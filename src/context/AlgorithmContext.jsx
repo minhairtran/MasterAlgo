@@ -11,7 +11,7 @@ class AlgorithmContextProvider extends Component {
                 id: 1,
                 name: "Pathfinding",
                 image: pathfindingImage,
-                slug: "pathfinding"
+                slug: "algorithm/pathfinding"
             }
         ],
     };

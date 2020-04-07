@@ -6,12 +6,14 @@ import * as serviceWorker from "./serviceWorker";
 import "bootstrap/dist/css/bootstrap.css";
 import { BrowserRouter as Router } from "react-router-dom";
 import AlgorithmContextProvider from "./context/AlgorithmContext";
-
+import UserContextProvider from "./context/UserContext";
 ReactDOM.render(
   <AlgorithmContextProvider>
-    <Router>
-      <App />
-    </Router>
+    <UserContextProvider>
+      <Router>
+        <App />
+      </Router>
+    </UserContextProvider>
   </AlgorithmContextProvider>,
   document.getElementById("root")
 );

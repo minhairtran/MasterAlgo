@@ -44,12 +44,11 @@ class Facebook extends Component {
     } else {
       fbContent = (
         <FacebookLogin
-          appId="250461312620838"
+          appId="221928089005414"
           autoLoad={true}
           fields="name,email,picture"
           onClick={this.componentClicked}
           callback={this.responseFacebook}
-          style={{ padding:0 }}
         />
       );
     }

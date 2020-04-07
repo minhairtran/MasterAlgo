@@ -7,8 +7,14 @@ class Pathfinding extends Component {
   render() {
     return (
       <NodeContextProvider>
-        <PathfindingNavbar />
-        <Nodes />
+        <div className="row">
+          <div className="col-2">
+            <PathfindingNavbar />
+          </div>
+          <div className="col-10">
+            <Nodes />
+          </div>
+        </div>
       </NodeContextProvider>
     );
   }
