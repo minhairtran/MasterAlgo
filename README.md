@@ -14,6 +14,9 @@ $ git clone "https://github.com/minhairtran/visualizer-app.git"
 - Install facebook login API: npm install react-facebook-login --save
 - Install react router: npm i react-router-dom --save
 
+## Visulize Dijkstra video
+[Click here](https://drive.google.com/file/d/1gNahlIwsxWUNASi1hih5eal64EICZ5ym/view?usp=sharing)
+
 ## Available Scripts
 
 In the project directory, you can run:
