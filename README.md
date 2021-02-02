@@ -1,6 +1,6 @@
 # Pathfinding Algorithm Visualizer 
 
-Demo: https://pure-savannah-33174.herokuapp.com/
+Demo: https://masteralgo.netlify.app/
 
 Algorithm Visualizer eases the effort of studying algorithm. If you find it hard to visualise and understand algortihm, this application is for you.
 
